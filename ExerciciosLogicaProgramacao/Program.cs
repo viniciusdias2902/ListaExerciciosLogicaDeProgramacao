@@ -7,15 +7,12 @@ class Program
 {
     public static void Main(String[] args)
     {
-        var questoesResolvidas = new List<Questao>();
-        questoesResolvidas.Add(new PrimeiraQuestao());
-        questoesResolvidas.Add(new SegundaQuestao());
-        FigletText apresentacao = new("Questões Resolvidas");
+        var exerciciosResolvidos = new List<Exercicio>();
+        exerciciosResolvidos.Add(new PrimeiroExercicio());
+        exerciciosResolvidos.Add(new SegundoExercicio());
+        FigletText apresentacao = new("Exercícios Resolvidos");
         apresentacao.Centered();
         apresentacao.Color = Color.Red;
-        foreach(var questao in questoesResolvidas)
-        {
-            AnsiConsole.WriteLine(questao.Enunciado);
-        }
+        AnsiConsole.Write(apresentacao);
     }
 }

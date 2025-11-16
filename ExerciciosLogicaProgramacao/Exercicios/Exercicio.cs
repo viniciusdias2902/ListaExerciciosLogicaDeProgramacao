@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ExerciciosLogicaProgramacao.Exercicios
 {
-     abstract class Questao
+     abstract class Exercicio
     {
         public abstract string Enunciado { get; }
         public abstract void Resolucao();

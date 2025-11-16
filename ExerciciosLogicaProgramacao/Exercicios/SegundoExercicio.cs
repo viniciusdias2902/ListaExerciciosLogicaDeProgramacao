@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ExerciciosLogicaProgramacao.Exercicios
 {
-    internal class SegundaQuestao : Questao
+    internal class SegundoExercicio : Exercicio
     {
         public override string Enunciado { get; } = "2 - Faça um algoritmo para receber um número" +
             " qualquer e imprimir na tela se o número é par ou ímpar, positivo ou negativo.";
