@@ -6,12 +6,11 @@ namespace ExerciciosLogicaProgramacao.Exercicios
 {
     class PrimeiraQuestao : Questao
     {
-        private static string Enunciado = "Faça um algoritmo que leia os valores de A, B, C" +
+        public override string Enunciado { get; } = "Faça um algoritmo que leia os valores de A, B, C" +
             "e em seguida imprima na tela a soma entre A e B é mostre se a soma é menor que C.";
         
-        public static void Resolucao()
+        public override void Resolucao()
         {
-            Console.WriteLine(Enunciado);
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());

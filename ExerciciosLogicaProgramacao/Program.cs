@@ -6,6 +6,12 @@ class Program
 {
     public static void Main(String[] args)
     {
-        PrimeiraQuestao.Resolucao();
+       var questoesResolvidas = new List<Questao>();
+       questoesResolvidas.Add(new PrimeiraQuestao());
+       foreach(var questao in questoesResolvidas)
+       {
+            Console.WriteLine(questao.Enunciado);
+            questao.Resolucao();
+       }
     }
 }

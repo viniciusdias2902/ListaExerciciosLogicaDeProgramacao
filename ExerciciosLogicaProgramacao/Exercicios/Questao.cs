@@ -4,8 +4,9 @@ using System.Text;
 
 namespace ExerciciosLogicaProgramacao.Exercicios
 {
-     interface Questao
+     abstract class Questao
     {
-        public static void Resolucao() { }
+        public abstract string Enunciado { get; }
+        public abstract void Resolucao();
     }
 }
