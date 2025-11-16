@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExerciciosLogicaProgramacao.Exercicios
 {
-    internal class SextoExercicio : Exercicio
+     class SextoExercicio : Exercicio
     {
         public override string Enunciado { get; } = " Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.";
         public override void Resolucao()
