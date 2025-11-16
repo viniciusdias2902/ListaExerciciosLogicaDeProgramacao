@@ -6,6 +6,6 @@ namespace ExerciciosLogicaProgramacao.Exercicios
 {
      interface Questao
     {
-        public static void resolucao() { }
+        public static void Resolucao() { }
     }
 }
