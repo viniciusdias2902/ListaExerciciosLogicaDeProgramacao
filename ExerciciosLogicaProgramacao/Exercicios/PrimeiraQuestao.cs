@@ -16,12 +16,13 @@ namespace ExerciciosLogicaProgramacao.Exercicios
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int somaDoisPrimeirosValores = a + b;
-            Console.WriteLine($"Soma dos dois primeiros valores: {somaDoisPrimeirosValores}");
             if (somaDoisPrimeirosValores > c) {
                 Console.WriteLine($"A soma dos valores a e b resulta em {somaDoisPrimeirosValores} e é maior do que {c}");
-            }else
+            }else if(somaDoisPrimeirosValores < b)
             {
                 Console.WriteLine($"A soma dos valores a e b resulta em {somaDoisPrimeirosValores} e é menor do que {c}");
+            }else {
+                Console.WriteLine($"A soma dos valores a e b resulta em {somaDoisPrimeirosValores} e é igual a {c}");
             }
         }
     }

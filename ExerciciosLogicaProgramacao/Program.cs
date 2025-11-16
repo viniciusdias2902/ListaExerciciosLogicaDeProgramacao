@@ -1,9 +1,11 @@
-﻿namespace ExercicioLogicaProgramacao;
+﻿using ExerciciosLogicaProgramacao.Exercicios;
+
+namespace ExercicioLogicaProgramacao;
 
 class Program
 {
     public static void Main(String[] args)
     {
-        Console.WriteLine("Hello World");
+        PrimeiraQuestao.Resolucao();
     }
 }
