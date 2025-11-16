@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace ExerciciosLogicaProgramacao.Exercicios
 {
-    internal class SextoExercicio : Exercicio
+    internal class QuintoExercicio : Exercicio
     {
-        public override string Enunciado { get; } = " Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.";
+        public override string Enunciado { get; } = "Faça um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário, calcule quantos salários mínimos esse usuário ganha e imprima na tela o resultado. (Base para o Salário mínimo R$ 1.293,20).";
+
         public override void Resolucao()
         {
-            double valor = double.Parse(Console.ReadLine());
-            double valorReajustado = valor + (valor * 0.05);
-            Console.WriteLine(valorReajustado);
+            double salarioMinimo = 1293.20;
+            double salarioUsuario = double.Parse(Console.ReadLine());
+            double quantidadeSalariosMinimos = salarioUsuario / salarioMinimo;
+            Console.WriteLine($"O usuário ganha {quantidadeSalariosMinimos} vezes o salário mínimo");
+
         }
     }
 }
