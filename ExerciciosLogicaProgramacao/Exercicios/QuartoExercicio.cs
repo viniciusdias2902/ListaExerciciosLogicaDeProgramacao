@@ -13,7 +13,7 @@ namespace ExerciciosLogicaProgramacao.Exercicios
         {
             int numeroInteiro = int.Parse(Console.ReadLine());
             Console.WriteLine($"Antecessor: {numeroInteiro - 1}");
-            Console.WriteLine($"Antecessor: {numeroInteiro + 1}");
+            Console.WriteLine($"Sucessor: {numeroInteiro + 1}");
         }
     }
 }
