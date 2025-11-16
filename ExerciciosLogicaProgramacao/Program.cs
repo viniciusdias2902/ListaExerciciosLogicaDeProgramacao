@@ -18,6 +18,8 @@ class Program
         exerciciosResolvidos.Add(new SextoExercicio());
         exerciciosResolvidos.Add(new SetimoExercicio());
         exerciciosResolvidos.Add(new OitavoExercicio());
+        exerciciosResolvidos.Add(new NonoExercicio());
+        exerciciosResolvidos.Add(new DecimoExercicio());
 
         Style estiloNumeroExercicio = new Style(foreground: Color.Blue, decoration: Decoration.Bold);
         Style estiloEnunciadoExercicio = new Style(foreground: Color.Purple, decoration: Decoration.SlowBlink);
