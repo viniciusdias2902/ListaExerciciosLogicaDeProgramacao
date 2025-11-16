@@ -8,7 +8,6 @@ class Program
     public static void Main(String[] args)
     {
         
-        // Adição de questões resolvidas na lista
 
         var exerciciosResolvidos = new List<Exercicio>();
         exerciciosResolvidos.Add(new PrimeiroExercicio());
@@ -19,7 +18,6 @@ class Program
         exerciciosResolvidos.Add(new SextoExercicio());
         exerciciosResolvidos.Add(new SetimoExercicio());
         exerciciosResolvidos.Add(new OitavoExercicio());
-        // Configurações estéticas
 
         Style estiloNumeroExercicio = new Style(foreground: Color.Blue, decoration: Decoration.Bold);
         Style estiloEnunciadoExercicio = new Style(foreground: Color.Purple, decoration: Decoration.SlowBlink);

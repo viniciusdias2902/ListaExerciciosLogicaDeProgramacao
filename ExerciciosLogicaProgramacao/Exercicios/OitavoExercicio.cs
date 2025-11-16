@@ -40,9 +40,9 @@ namespace ExerciciosLogicaProgramacao.Exercicios
             
             int meio = inteiros.Sum() - maior - menor;
 
-            Console.Write(maior);
-            Console.Write(meio);
-            Console.Write(menor);
+            Console.WriteLine(maior);
+            Console.WriteLine(meio);
+            Console.WriteLine(menor);
         }
     }
 }
