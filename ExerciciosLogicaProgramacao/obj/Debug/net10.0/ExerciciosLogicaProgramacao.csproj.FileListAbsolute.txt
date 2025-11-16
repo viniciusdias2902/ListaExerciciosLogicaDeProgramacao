@@ -1,0 +1,14 @@
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.AssemblyInfoInputs.cache
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.AssemblyInfo.cs
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.csproj.CoreCompileInputs.cache
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\bin\Debug\net10.0\ExerciciosLogicaProgramacao.exe
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\bin\Debug\net10.0\ExerciciosLogicaProgramacao.deps.json
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\bin\Debug\net10.0\ExerciciosLogicaProgramacao.runtimeconfig.json
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\bin\Debug\net10.0\ExerciciosLogicaProgramacao.dll
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\bin\Debug\net10.0\ExerciciosLogicaProgramacao.pdb
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.dll
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\refint\ExerciciosLogicaProgramacao.dll
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.pdb
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ExerciciosLogicaProgramacao.genruntimeconfig.cache
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net10.0\ref\ExerciciosLogicaProgramacao.dll
