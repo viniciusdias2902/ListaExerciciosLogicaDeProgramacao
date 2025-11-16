@@ -15,3 +15,4 @@ C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\o
 C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net8.0\ExerciciosLogicaProgramacao.pdb
 C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net8.0\ExerciciosLogicaProgramacao.genruntimeconfig.cache
 C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net8.0\ref\ExerciciosLogicaProgramacao.dll
+C:\Users\vyvy\Projects\ExerciciosLogicaProgramacao\ExerciciosLogicaProgramacao\obj\Debug\net8.0\ExerciciosLogicaProgramacao.sourcelink.json
