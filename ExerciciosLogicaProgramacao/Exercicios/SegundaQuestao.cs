@@ -11,7 +11,36 @@ namespace ExerciciosLogicaProgramacao.Exercicios
             " qualquer e imprimir na tela se o número é par ou ímpar, positivo ou negativo.";
         public override void Resolucao()
         {
-            throw new NotImplementedException();
+            int numero = int.Parse(Console.ReadLine());
+            Console.WriteLine(AnalisarNumero(numero));
+        }
+        private string AnalisarNumero(int numero)
+        {
+            String analiseNumero = "";
+            if (numero % 2 == 0)
+            {
+                analiseNumero = "O número é par ";
+            }
+            else
+            {
+                analiseNumero = "O número é ímpar ";
+            }
+
+            if (numero > 0)
+            {
+                analiseNumero += "e positivo"; 
+            }
+            else
+            {
+                analiseNumero += "e negativo";
+            }
+
+            if (numero == 0)
+            {
+                analiseNumero = "O número é zero";
+            }
+
+            return analiseNumero;
         }
     }
 }
