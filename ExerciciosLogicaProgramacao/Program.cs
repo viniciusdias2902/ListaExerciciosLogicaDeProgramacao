@@ -22,8 +22,7 @@ class Program
         apresentacao.Centered();
         apresentacao.Color = Color.Red;
         AnsiConsole.Write(apresentacao);
-
-
+        AnsiConsole.WriteLine("");
 
         for (int i = 0; i < exerciciosResolvidos.Count; i++)
         {
@@ -32,9 +31,11 @@ class Program
 
         }
 
+        AnsiConsole.WriteLine("");
+
         while (true)
         {
-            int opcao = AnsiConsole.Prompt(new TextPrompt<int>("Digite o número do exercício para ter acesso a sua resolução ou 0 para encerrar o programa"));
+            int opcao = AnsiConsole.Prompt(new TextPrompt<int>("Digite o número do exercício para ter acesso a sua resolução ou 0 para encerrar o programa: "));
             if (opcao == 0)
             {
                 break;
