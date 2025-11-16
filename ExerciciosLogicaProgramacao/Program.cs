@@ -29,6 +29,22 @@ class Program
         {
             AnsiConsole.Write(new Markup($"{i+1} - ", style: estiloNumeroExercicio));
             AnsiConsole.Write(new Markup(exerciciosResolvidos[i].Enunciado + "\n", style: estiloEnunciadoExercicio));
+
         }
-    }
+
+        while (true)
+        {
+            int opcao = AnsiConsole.Prompt(new TextPrompt<int>("Digite o número do exercício para ter acesso a sua resolução ou 0 para encerrar o programa"));
+            if (opcao == 0)
+            {
+                break;
+            }else if (opcao < 0 || opcao > exerciciosResolvidos.Count())
+            {
+                continue;
+            }else
+            {
+                exerciciosResolvidos[opcao-1].Resolucao();
+            }
+        }
+     }
 }
